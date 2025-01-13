@@ -48,14 +48,14 @@ const discount = 0.9;
 // 4.3. Alex 望向天空，看到天上有 5 朵白雲和 1 顆太陽
 
 // 4-1
-const isRedLight = true;
-const greenLightTime = 28;
+let isRedLight = true;
+let greenLightTime = 28;
 
 // 4-2
-const waitMotorcycleCount = 8; 
+let waitMotorcycleCount = 8; 
 
 // 4-3
-const cloudsCount = 5; 
+let cloudsCount = 5; 
 const sunCount = 1;
 
 // ### 題目六：情境題：簡單變數計算
@@ -100,7 +100,7 @@ console.log(
 // 以下程式碼請勿變更
 let a = 8; // 範例：宣告了一個 a 的變數，並賦予了一個 8 的數字型別
 let b = 0; // 宣告了一個 b 的變數，並賦予了一個 0 的數字型別
-a = 13;    // 變更變數 a 的值為 13
+a = 13;    // 重新賦予變數 a 的值為 13
 a = b + 4; // b 的值為 0，所以變數 a 的值變更為 4
 a - b;     // 計算 a-b 的數值，a 的值為 4，b 的值為 0，因此計算結果為 4
 b += 1;    // 計算 b 加 1 的結果為 1， 並將計算結果儲存至 b 變數中
